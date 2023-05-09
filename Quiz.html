@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Quiz.css">
+    <script src="https://kit.fontawesome.com/2b9cdc1c9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- Start button-->
+     <div class="quiz">Quiz <span>Show</span></div>
+     <div class="strt-btn"><button>Start Quiz</button></div>
+
+     <!-- Quiz Rules Info-->
+     <div class="Info-box">
+        <div class="Info-heading">
+            <h2>Rules for the Show</h2>
+        </div>
+        <div class="Info-points">
+            <div class="rule-info">1. Once you select your answer, you can't reselect.</div>
+            <div class="rule-info">2. You can't exit the quiz show while you are playing.</div>
+            <div class="rule-info">3. You will get the points on the basis of your answer.</div>
+        </div>
+        <div class="info-btn">
+            <button class="cont">Continue</button>
+            <button class="exit">Exit Quiz</button>
+        </div>
+     </div>
+
+     <!-- Quiz Question box-->
+     <div class="quiz-box">
+     <header>
+        <div class="title">Let's Test Your Frontend Knowledge</div>
+     </header>
+
+     <section>
+         <div class="que-text">
+          <!-- <span>What does HTML stand for?</span> -->
+         </div>
+         <div class="option-list">
+          <!--  <div class="option">
+                <span>Hyper Text Markup Language</span>
+                <div class="icon right"><i class="fa-solid fa-check"></i></div>
+            </div>
+            <div class="option">
+                <span>Hyper Text Marked Language</span>
+                <div class="icon wrong"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <div class="option">
+                <span>Hyper Text Multiple Language</span>
+               
+            </div>
+            <div class="option">
+                <span>Hyper Text Machine Language</span>
+                
+            </div> -->
+         </div>
+     </section>
+
+     <!-- Quiz Question Box Footer-->
+
+     <footer>
+        <div class="total-ques">
+            <span>
+                <p>2</p>of<p>5</p>
+                Questions
+            </span>
+        </div>
+        <div class="next-btn"><button>Next</button></div>
+     </footer>
+    </div>
+
+    <!-- Result Box -->
+
+    <div class="result-box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="result">You have completed the Quiz</div>
+        <div class="score">Your Score is <p>2</p> out of <p>5</p></div>
+        <div class="result-btn">
+            <button class="restart">Replay Quiz</button>
+            <button class="exit">Exit</button>
+        </div>
+    </div>
+
+    <script src="Quiz.js"></script>
+    <script src="quizQuestion.js"></script>
+</body>
+</html>
